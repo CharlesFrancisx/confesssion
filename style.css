@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cute Font", sans-serif;
+}
+
+#pop-up-cont {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pop-up {
+  font-size: 2rem;
+}
+.shy-gif {
+  width: 150px;
+  height: auto;
+}
+
+.cute-gif {
+  width: 300px;
+}
+
+.confession-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.btn-cont {
+  display: flex;
+  gap: 1rem;
+}
+
+#yes-btn {
+  color: white;
+  background-color: rgb(22, 196, 22);
+  width: 150px;
+  height: 2rem;
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+#no-btn {
+  color: white;
+  background-color: rgb(196, 39, 22);
+  width: 150px;
+  height: 2rem;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#no-btn:hover {
+  background-color: rgb(235, 81, 64);
+}
+
+#yes-btn:hover {
+  background-color: rgb(64, 235, 98);
+}
+
+.try-again {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  background-color: #d57d8c;
+  padding: 0 2rem;
+}
+
+.try-again:hover {
+  background-color: #f2a9b5;
+}
