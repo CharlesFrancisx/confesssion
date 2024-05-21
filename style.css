@@ -84,3 +84,10 @@ h3 {
 .try-again:hover {
   background-color: #f2a9b5;
 }
+
+.confession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

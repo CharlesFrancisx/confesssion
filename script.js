@@ -1,11 +1,11 @@
 const yesBtn = document.getElementById("yes-btn");
 const popUp = document.getElementById("pop-up-cont");
 const noBtn = document.getElementById("no-btn");
-const confessionCont = document.getElementById("confession-cont");
+const confession = document.getElementById("confession");
 
 yesBtn.addEventListener("click", function () {
   popUp.style.display = "flex";
-  confessionCont.style.overflow = "hidden";
+  confession.style.display = "none";
 });
 
 noBtn.addEventListener("click", function () {
