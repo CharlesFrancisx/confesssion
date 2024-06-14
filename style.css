@@ -4,6 +4,24 @@
   font-family: "Cute Font", sans-serif;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  background-color: #fff6c2;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+}
+
 #pop-up-cont {
   width: 100%;
   height: 100vh;

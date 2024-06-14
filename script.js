@@ -12,7 +12,7 @@ noBtn.addEventListener("click", function () {
   const currentWidth = parseInt(window.getComputedStyle(yesBtn).width);
   const currentHeight = parseInt(window.getComputedStyle(yesBtn).height);
   const currentFontSize = parseInt(window.getComputedStyle(yesBtn).height);
-  yesBtn.style.width = currentWidth + 30 + "px";
-  yesBtn.style.height = currentHeight + 20 + "px";
-  yesBtn.style.fontSize = currentFontSize + 20 + "px";
+  yesBtn.style.width = currentWidth + 50 + "px";
+  yesBtn.style.height = currentHeight + 30 + "px";
+  yesBtn.style.fontSize = currentFontSize + 2 + "px";
 });
